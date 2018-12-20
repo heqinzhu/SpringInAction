@@ -1,7 +1,7 @@
 # Spring
 Learning in springframework!
 -------------------------------------------------------------------------------
-#**_Chapter 1_**
+# **_Chapter 1_**
 
 
 ## DI和AOP
@@ -35,17 +35,17 @@ Spring自带了多种类型应用上下文，常用的有：
 - FileSystemXmlApplicationContext:从文件系统下的一个或多个XML配置文件中加载上下文定义。
 - XmlWebApplicationContext:从Web应用下的一个或多个XML配置文件中加载上下文定义。
 ---
-#**_Chapter 2_**
-##Spring的配置可选方案
+# **_Chapter 2_**
+## Spring的配置可选方案
 - 在XML中显式配置；
 + 在Java中显式配置；
 * 隐式的bean发现机制和自动装配
 
-###自动装配
+### 自动装配
 + 组件扫描(*component scanning*)：Spring会自动发现应用上下文中所创建的bean。
 + 自动装配(*autowiring*)：Spring自动满足bean之间的依赖。
 
-####组件扫描
+#### 组件扫描
 
 1. 定义组件
 ```java
